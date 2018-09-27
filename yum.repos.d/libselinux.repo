@@ -4,6 +4,6 @@
 name=CentOS-5 - libselinux
 baseurl=http://vault.centos.org/5.11/centosplus/$basearch/
 gpgcheck=1
-enabled=1
+enabled=0
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-5
 includepkgs=libselinux*
