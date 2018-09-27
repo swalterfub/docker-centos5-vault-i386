@@ -7,19 +7,19 @@
 
 [base]
 name=CentOS-5 - Base
-baseurl=http://vault.centos.org/5.11/os/$basearch/
+baseurl=http://vault.centos.org/5.11/os/i386/
 gpgcheck=1
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-5
 
 [updates]
 name=CentOS-5 - Updates
-baseurl=http://vault.centos.org/5.11/updates/$basearch/
+baseurl=http://vault.centos.org/5.11/updates/i386/
 gpgcheck=1
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-5
 
 [extras]
 name=CentOS-5 - Extras
-baseurl=http://vault.centos.org/5.11/extras/$basearch/
+baseurl=http://vault.centos.org/5.11/extras/i386/
 gpgcheck=1
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-5
 
